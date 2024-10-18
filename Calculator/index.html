@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="main.css"> <!-- css読み込み-->
+    </head>
+
+    <body>
+        <div id="Calculator" class="Calculator">
+            <div id="Total" class="Total">0</div>
+            <div id="buttons" class="buttons">
+                <input id="Seven" class="button" type="button" onclick="get_calc(this)" value="7"> <!-- onclick="get_calc(this)"は、クリックした関数を呼び出す。 jsのget_calc関数に連動-->
+                <input id="Eight" class="button" type="button" onclick="get_calc(this)" value="8">
+                <input id="Nine" class="button" type="button" onclick="get_calc(this)" value="9">
+                <input id="Plus" class="button" type="button" onclick="get_calc(this)" value="+">
+                <br>
+                <input id="Four" class="button" type="button" onclick="get_calc(this)" value="4">
+                <input id="Five" class="button" type="button" onclick="get_calc(this)" value="5">
+                <input id="Six" class="button" type="button" onclick="get_calc(this)" value="6">
+                <input id="Minus" class="button" type="button" onclick="get_calc(this)" value="-">
+                <br>
+                <input id="One" class="button" type="button" onclick="get_calc(this)" value="1">
+                <input id="Two" class="button" type="button" onclick="get_calc(this)" value="2">
+                <input id="Three" class="button" type="button" onclick="get_calc(this)" value="3">
+                <input id="Times" class="button" type="button" onclick="get_calc(this)" value="*">
+                <br>
+                <input id="Zero" class="button" type="button" onclick="get_calc(this)" value="0">
+                <input id="Zerotwo" class="button" type="button" onclick="get_calc(this)" value="00">
+                <input id="Few" class="button" type="button" onclick="get_calc(this)" value=".">
+                <input id="Division" class="button" type="button" onclick="get_calc(this)" value="/">
+                <br>
+                <input id="Allclear" class="button_5" type="button" onclick="get_calc(this)" value="AC">
+                <input id="Equal" class="button_5" type="button" onclick="get_calc(this)" value="=">
+            </div>
+        </div>  
+        <script src='main.js'></script> <!-- javascript読み込み-->
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.Total{
+    font-size: 30px;    
+    margin: auto;
+    width: 280px;
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.button_5{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    width: 125px;
+}
